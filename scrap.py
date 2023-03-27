@@ -16,7 +16,7 @@ def get_address(url):
     return address
 
 # Add a new column to the DataFrame for the address
-df['address'] = df['website'].apply(get_address)
+#df['address'] = df['website'].apply(get_address)
 
 # Write the updated DataFrame to a new Excel file
 df.to_excel(r"C:\Users\HP\Downloads\web.xlsx", index=False)
